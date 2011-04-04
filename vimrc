@@ -1,6 +1,6 @@
 set t_Co=256
-colors pyte
-
+let g:lucius_style = "light"
+colors lucius
 let mapleader = ","
 set tabstop=4
 set shiftwidth=4
