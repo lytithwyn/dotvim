@@ -13,6 +13,9 @@ set cursorline
 set showcmd
 set cmdheight=2
 
+:command Q q
+:command W w
+
 map <leader>t :NERDTreeToggle<CR>
 
 map <leader>g :!git status<CR>
