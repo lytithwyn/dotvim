@@ -9,7 +9,6 @@ set smartindent
 set smarttab
 set number
 set showmatch
-set cursorline
 set showcmd
 set cmdheight=2
 
