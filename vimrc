@@ -17,6 +17,9 @@ set cmdheight=2
 
 map <leader>t :NERDTreeToggle<CR>
 
+map <leader>p :tabp<CR>
+map <leader>n :tabn<CR>
+
 map <leader>g :!git status<CR>
 map <leader>s :!svn status<CR>
 
