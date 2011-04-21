@@ -1,6 +1,9 @@
-set t_Co=256
-let g:lucius_style = "light"
-colors lucius
+if has('gui_running')
+  set t_Co=256
+  let g:lucius_style = "light"
+  colors lucius
+endif
+
 let mapleader = ","
 set tabstop=4
 set shiftwidth=4
