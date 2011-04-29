@@ -11,6 +11,7 @@ set number
 set showmatch
 set showcmd
 set cmdheight=2
+set autochdir
 
 :command Q q
 :command W w
