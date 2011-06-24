@@ -1,7 +1,6 @@
 if has('gui_running')
   set t_Co=256
-  let g:lucius_style = "light"
-  colors lucius
+  colors osx_like
 endif
 
 let mapleader = ","
