@@ -41,3 +41,6 @@ function! s:StripTrailingWhitespace()
 :endfunction
 
 map <leader>w :StripTrailingWhitespace<CR>
+
+call pathogen#infect()
+filetype plugin indent on
