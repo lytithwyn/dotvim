@@ -1,6 +1,7 @@
 if has('gui_running')
   set t_Co=256
-  colors osx_like
+  colors jellybeans
+  set gfn=Monaco\ 10
 endif
 
 let mapleader = ","
