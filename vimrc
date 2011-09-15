@@ -15,7 +15,8 @@ set showmatch
 set showcmd
 set cmdheight=2
 set autochdir
-set nohlsearch
+
+nnoremap <F3> :noh<return><esc>
 
 :command Q q
 :command W w
