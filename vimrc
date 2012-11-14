@@ -49,4 +49,4 @@ map <leader>w :StripTrailingWhitespace<CR>
 call pathogen#infect()
 filetype plugin indent on
 
-:autocmd FileType make set noexpandtab
+:autocmd FileType make setlocal noexpandtab
