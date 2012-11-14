@@ -31,6 +31,7 @@ map <leader>s :!svn status<CR>
 
 autocmd FileType c,cpp,java,php autocmd BufWritePre * :call s:StripTrailingWhitespace()
 au BufRead,BufNewFile *.twig set syntax=htmljinja
+autocmd FileType make setlocal noexpandtab
 
 function! s:StripTrailingWhitespace()
   " Save last search and cursor position
