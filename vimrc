@@ -15,6 +15,7 @@ set showmatch
 set showcmd
 set cmdheight=2
 set autochdir
+syntax on
 
 nnoremap <F3> :noh<return><esc>
 
