@@ -31,7 +31,8 @@ map <leader>g :!git status<CR>
 map <leader>s :!svn status<CR>
 
 autocmd FileType c,cpp,java,php autocmd BufWritePre * :call s:StripTrailingWhitespace()
-au BufRead,BufNewFile *.twig set syntax=htmljinja
+au BufRead,BufNewFile *.twig set filetype=htmljinja
+au BufRead,BufNewFile *.html.twig set filetype=htmljinja
 autocmd FileType make setlocal noexpandtab
 
 function! s:StripTrailingWhitespace()
