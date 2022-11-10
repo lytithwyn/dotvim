@@ -3,7 +3,7 @@ if has('gui_running')
   colors jellybeans
   set gfn=Ubuntu\ Mono\ 11.5
 else
-  colors jellybeans
+  colors industry
 endif
 
 let mapleader = ","
