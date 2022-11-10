@@ -55,3 +55,4 @@ call pathogen#infect()
 filetype plugin indent on
 
 :autocmd FileType make setlocal noexpandtab
+:set backspace=indent,eol,start
