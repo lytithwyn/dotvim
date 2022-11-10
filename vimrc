@@ -1,7 +1,7 @@
 if has('gui_running')
   set t_Co=256
   colors jellybeans
-  set gfn=Monaco\ 10
+  set gfn=Ubuntu\ Mono\ 11.5
 else
   colors jellybeans
 endif
